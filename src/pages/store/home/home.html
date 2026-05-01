@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Food Store</title>
+   <link rel="stylesheet" href="./home.css">
+</head>
+<body>
+   
+   <header>
+      <nav class="nav-bar">
+         <a href="#">Food Store</a>
+
+         <ul class="nav-links">
+            <li>
+               <a href="../home/home.html">Catálogo</a>
+            </li>
+            <li>
+               <a href="../cart/cart.html">Carrito</a>
+               <span id="cont-carrito">0</span>
+            </li>
+         </ul>
+      </nav>
+   </header>
+   
+   <main class="main-section">
+      <aside class="categorias">
+         <h2>Categorías</h2>
+         <ul id="ul-categorias">
+            <li class="activa">Todos los productos</li>
+         </ul>
+      </aside>
+
+      <section class="productos">
+         <div class="buscador">
+            <input type="text" id="busqueda" placeholder="Buscar productos...">
+         </div>
+         
+         <div class="grilla-productos">
+         </div>
+
+      </section>
+   </main>
+
+   <div id="msj-agregado">Producto agregado al carrito.</div>
+
+   <script type="module" src="home.ts"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Food Store</title>
+   <link rel="stylesheet" href="./cart.css">
+</head>
+<body>
+   
+   <header>
+      <nav class="nav-bar">
+         <a href="/">Food Store</a>
+
+         <ul class="nav-links">
+            <li>
+               <a href="../home/home.html">Catálogo</a>
+            </li>
+            <li>
+               <a href="../cart/cart.html">Carrito</a>
+               <span id="cont-carrito">0</span>
+            </li>
+         </ul>
+      </nav>
+   </header>
+   
+   <main>
+      <section>
+         <h1>Mi carrito</h1>
+
+         <div id="carrito-vacio" class="oculto">
+            <p>Tu carrito está vacío.</p>
+            <a href="../home/home.html">Volver al catálogo</a>
+         </div>
+
+         <div id="lista-items">
+            
+         </div>
+      </section>
+
+      <aside>
+         <article>
+            <h2>Resumen</h2>
+
+            <p>Subtotal: <span id="subtotal">$0</span></p>
+            <p>Total: <span id="total">$0</span></p>
+
+            <button id="btn-finalizar">Finalizar compra</button>
+
+            <button id="btn-vaciar">Vaciar carrito</button>
+         </article>
+      </aside>
+
+   </main>
+
+   <script type="module" src="cart.ts"></script>
+</body>
+</html>
