@@ -39,3 +39,7 @@ pnpm dev
 ```
 
 La aplicación estará disponible en la URL que aparezca en la terminal (generalmente `http://localhost:5173`).
+
+## URL de repo de GitHub
+
+https://github.com/fleonelherrera/Food-Store-ProgramacionIII
